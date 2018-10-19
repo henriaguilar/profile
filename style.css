@@ -1,0 +1,127 @@
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#avatar {
+  border-radius: 50%;
+  border: 3px solid #cccccc;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+h1 {
+  color: rgb(100, 100, 100);
+  font-size: 35px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(120, 120, 120);
+  font-size: 20px;
+  font-family: arial;
+}
+
+p {
+  font-family: arial;
+  text-align: justify;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+a {
+  color: rgb(140, 140, 140);
+  font-family: arial;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-family: arial;
+}
+
+i {
+  width: 20px;
+}
+
+ul {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 1.6em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    font-variant: normal;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+  display: table-cell;
+}
